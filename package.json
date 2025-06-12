@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://JNocetti.github.io/MarcelinaWeb",
+  "homepage": "https://jnocetti.github.io/MarcelinaWeb/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
