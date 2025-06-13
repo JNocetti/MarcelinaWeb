@@ -1,4 +1,3 @@
-import icon from '../../assets/mainIcon.png'
 import { Link } from 'react-router-dom';
 
 
@@ -8,7 +7,7 @@ const MainNavbar = () => {
             <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
                 <div className="flex items-center space-x-2">
                     <img
-                        src={icon}
+                        src='/mainIcon.png'
                         alt="Logo"
                         className="h-10 w-auto object-contain"
                     />
