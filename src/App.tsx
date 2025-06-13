@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './App.css'; 
+import './App.css';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import ScrollToTop from "./components/ScrollToTop.tsx";
