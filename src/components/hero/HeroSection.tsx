@@ -8,7 +8,7 @@ const HeroSection = () => {
     return (
         <section className="h-screen w-full overflow-hidden bg-black flex items-center justify-center">
             <motion.img
-                src="marcelinaHero2.png"
+                src="/MarcelinaWeb/marcelinaHero2.png"
                 alt="Hero"
                 style={{ y, opacity }}
                 className="max-h-full max-w-full object-cover"
