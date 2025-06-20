@@ -4,7 +4,7 @@ import Landing from '../components/Landing';
 
 const Home = () => {
     return (
-        <main className="bg-black">
+        <main>
             <MainNavBar />
             <HeroSection />
             <Landing />

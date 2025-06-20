@@ -6,6 +6,9 @@ import './App.css';
 import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import ScrollToTop from "./components/ScrollToTop.tsx";
+import CartPage from "./pages/CartPage.tsx";
+import ContactPage from "./pages/ContactPage.tsx";
+import {Footer} from "./components/Footer.tsx";
 
 function App() {
     useEffect(() => {
@@ -21,7 +24,10 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/productos" element={<ProductPage />} />
+            <Route path="/cart" element={<CartPage />} />
+            <Route path="/contacto" element={<ContactPage />} />
         </Routes>
+        <Footer/>
         </>
     );
 }
